@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DBL.Migrations
 {
     [DbContext(typeof(FileServerDbContext))]
-    [Migration("20200429203137_sizeFieldChanged")]
-    partial class sizeFieldChanged
+    [Migration("20200430050046_initial-creation")]
+    partial class initialcreation
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
